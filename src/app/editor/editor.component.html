@@ -1,0 +1,7 @@
+<select [(ngModel)]="currentFile" (change)="onFileChange()">
+  <option *ngFor="let file of fileList" [value]="file">{{ file }}</option>
+</select>
+
+<div id="editor"></div>
+
+<p>dadsaldad;la</p>
